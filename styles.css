@@ -19,3 +19,13 @@ body {
 h1 {
     margin-bottom: 20px;
 }
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    box-sizing: border-box;
+}
