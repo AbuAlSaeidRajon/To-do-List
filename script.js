@@ -8,3 +8,7 @@ function addTask() {
         document.getElementById("task").value = "";
     }
 }
+
+function deleteTask(element) {
+    element.parentNode.remove();
+}
